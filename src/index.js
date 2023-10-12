@@ -890,10 +890,10 @@ class PhoneInput extends React.Component {
                 [`${searchClass}-box`]: searchClass,
               })}
               style={searchStyle}
-              type='search'
+              type='tel'
               placeholder={searchPlaceholder}
               autoFocus={true}
-              autoComplete={autocompleteSearch ? 'on' : 'off'}
+              autoComplete={'tel'}
               value={searchValue}
               onChange={this.handleSearchChange}
             />
